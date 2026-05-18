@@ -2,7 +2,7 @@ const installBtn = document.getElementById('installBtn');
 const statusText = document.getElementById('status');
 
 // Ссылка на ваш архив 
-const ZIP_URL = 'https://github.com/sutachanjam/my-game-rus/releases/download/v1.0/patch.zip'; 
+const ZIP_URL = 'https://github.com/sutachanjam/my-game-rus/releases/download/v1.0/patch.zip';
 
 // Вспомогательная функция для создания вложенных папок
 async function getDeepDirHandle(baseHandle, path) {
