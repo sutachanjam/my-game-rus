@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Установка русификатора</title>
+    <script src="/app.js" defer></script>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background: #1a1a1a; color: #fff; }
+        .installer-box { border: 1px solid #444; padding: 20px; border-radius: 8px; max-width: 400px; }
+        button { 
+            background: #8b00ff; color: white; border: none; 
+            padding: 10px 20px; cursor: pointer; font-size: 16px; border-radius: 4px;
+        }
+        button:hover { background: #6a00cc; }
+        #status { margin-top: 15px; color: #aaa; }
+    </style>
+</head>
+<body>
+
+    <div class="installer-box">
+        <h2>Быстрая установка на ПК</h2>
+        <p>Выберите папку с игрой. Работает в Chrome и Edge.</p>
+        
+        <button id="installBtn">Установить через браузер</button>
+        
+        <p id="status"></p>
+    </div>
+
+</body>
+</html>
